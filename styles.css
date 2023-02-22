@@ -36,3 +36,70 @@ input {
 img {
 	max-width: 300px;
 }
+
+.container {
+	border: 5px solid black;
+	padding: 10px;
+	display: flex;
+	align-items: flex-end;
+	box-sizing: border-box;
+	width: 300px;
+			
+}
+
+#rec-1 {
+
+	width: 100px;
+	height: 200px;
+	background-color: blue;
+	text-align: center;
+	color: aliceblue;
+	font-size: 30px;
+
+}
+
+#rec-2 {
+	
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255, 213, 0);
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	
+}
+
+#rec-3 {
+		
+	width: 100px;
+	height: 180px;
+	background-color: rgb(243, 91, 9);
+	text-align: center;
+	color: rgb(24, 23, 23);
+	font-size: 30px;
+}
+
+.large-yellow {
+
+	height: 50px;
+	width: 100px;
+	background-color: yellow;
+	color: black;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline;
+	
+}
+
+#google {
+	display: inline;
+}
+
+#a-friend {
+	display: inline;
+}
+
+#other {
+	display: inline;
+}
